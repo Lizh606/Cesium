@@ -25,33 +25,28 @@
         </template>
         <MenuItem name="3-1" @click="go">飞机</MenuItem>
         <MenuItem name="3-2" @click="totank">坦克</MenuItem>
-        <MenuItem name="3-3" @click="text">SampledProperty</MenuItem>
-        <MenuItem name="3-4" @click="Time">CallbackProperty</MenuItem>
-        <MenuItem name="3-5" @click="veloctiy"
-          >VelocityOrientationProperty</MenuItem
-        >
       </Submenu>
     </Menu>
     <div class="right">
       <div id="cesiumContainer"></div>
     </div>
-    <button class="btn1" style="left: 407.35px; top: 24.5px" @click="change">
-      {{ change1.z }}{{$store.state.name}}
+
+    <button class="btn1" style="left: 307.35px; top: 24.5px" @click="text">
+      测试
+    </button>
+    <button class="btn1" style="left: 357.35px; top: 24.5px" @click="change">
+      {{ change1.z }}
     </button>
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { onMounted, reactive, toRaw, ref } from "vue";
-import fly from "./funcs/fly";
-import tank from "./funcs/tank";
+import fly from "./funcs/fly.ts";
+import tank from "./funcs/tank.ts";
 import { load, highlight } from "./funcs/3dTiles";
 import { loadGeo, highlightGeo } from "./funcs/GeoJSON";
-import TimeIntervalCollection from "./funcs/CallbackProperty";
-import VelocityOrientation from "./funcs/VelocityOrientationProperty";
-import useCurrentInstance from "@/utils/useCurrentInstance";
-const { proxy } = useCurrentInstance();
-console.log(proxy);
+
 import * as Cesium from "cesium";
 //菜单样式
 const theme = "light";
@@ -163,7 +158,7 @@ const text = () => {
   );
 
   property.addSample(
-    Cesium.JulianDate.fromIso8601("2022-06-24T24:00:00.00Z"),
+    Cesium.JulianDate.fromIso8601("2022-06-21T24:00:00.00Z"),
     new Cesium.Cartesian3(600000.0, 500000.0, 700000.0)
   );
 
@@ -184,12 +179,6 @@ const change = (blueBox) => {
   // this.blueBox.box.dimensions.setValue(
   //   new Cesium.Cartesian3(400000.0, 300000.0, 700000.0)
   // );
-};
-const Time = async () => {
-  await TimeIntervalCollection(viewer);
-};
-const veloctiy = async () => {
-  await VelocityOrientation(viewer);
 };
 onMounted(() => {
   init();

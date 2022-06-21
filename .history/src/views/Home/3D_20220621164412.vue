@@ -36,7 +36,7 @@
       <div id="cesiumContainer"></div>
     </div>
     <button class="btn1" style="left: 407.35px; top: 24.5px" @click="change">
-      {{ change1.z }}{{$store.state.name}}
+      {{ change1.z }}
     </button>
   </div>
 </template>

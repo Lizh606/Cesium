@@ -36,21 +36,20 @@
       <div id="cesiumContainer"></div>
     </div>
     <button class="btn1" style="left: 407.35px; top: 24.5px" @click="change">
-      {{ change1.z }}{{$store.state.name}}
+      {{ change1.z }}
     </button>
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, reactive, toRaw, ref } from "vue";
+import { onMounted, reactive, toRaw, ref, getCurrentInstance } from "vue";
 import fly from "./funcs/fly";
 import tank from "./funcs/tank";
 import { load, highlight } from "./funcs/3dTiles";
 import { loadGeo, highlightGeo } from "./funcs/GeoJSON";
 import TimeIntervalCollection from "./funcs/CallbackProperty";
 import VelocityOrientation from "./funcs/VelocityOrientationProperty";
-import useCurrentInstance from "@/utils/useCurrentInstance";
-const { proxy } = useCurrentInstance();
+const { proxy } = getCurrentInstance();
 console.log(proxy);
 import * as Cesium from "cesium";
 //菜单样式

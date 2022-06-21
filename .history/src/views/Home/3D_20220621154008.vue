@@ -25,33 +25,32 @@
         </template>
         <MenuItem name="3-1" @click="go">飞机</MenuItem>
         <MenuItem name="3-2" @click="totank">坦克</MenuItem>
-        <MenuItem name="3-3" @click="text">SampledProperty</MenuItem>
-        <MenuItem name="3-4" @click="Time">CallbackProperty</MenuItem>
-        <MenuItem name="3-5" @click="veloctiy"
-          >VelocityOrientationProperty</MenuItem
-        >
       </Submenu>
     </Menu>
     <div class="right">
       <div id="cesiumContainer"></div>
     </div>
+
+    <button class="btn1" style="left: 307.35px; top: 24.5px" @click="text">
+      SampledProperty
+    </button>
+    <button class="btn1" style="left: 307.35px; top: 54.5px" @click="Time">
+      TimeIntervalCollectionProperty
+    </button>
     <button class="btn1" style="left: 407.35px; top: 24.5px" @click="change">
-      {{ change1.z }}{{$store.state.name}}
+      {{ change1.z }}
     </button>
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { onMounted, reactive, toRaw, ref } from "vue";
-import fly from "./funcs/fly";
-import tank from "./funcs/tank";
+import fly from "./funcs/fly.ts";
+import tank from "./funcs/tank.ts";
 import { load, highlight } from "./funcs/3dTiles";
 import { loadGeo, highlightGeo } from "./funcs/GeoJSON";
-import TimeIntervalCollection from "./funcs/CallbackProperty";
-import VelocityOrientation from "./funcs/VelocityOrientationProperty";
-import useCurrentInstance from "@/utils/useCurrentInstance";
-const { proxy } = useCurrentInstance();
-console.log(proxy);
+import TimeIntervalCollection from "./funcs/TimeIntervalCollectionProperty";
+
 import * as Cesium from "cesium";
 //菜单样式
 const theme = "light";
@@ -186,10 +185,72 @@ const change = (blueBox) => {
   // );
 };
 const Time = async () => {
-  await TimeIntervalCollection(viewer);
-};
-const veloctiy = async () => {
-  await VelocityOrientation(viewer);
+  let nowDate = new Date().toJSON();
+    const box = viewer.entities.add({
+        name: "box",
+        position: Cesium.Cartesian3.fromDegrees(121.54035, 38.92146, 2000),
+        box: {
+            dimensions: new Cesium.Cartesian3(1000.0, 1000.0, 1000.0),
+        },
+    });
+  viewer.flyTo(box);
+
+  let property = new Cesium.TimeIntervalCollectionProperty(Cesium.Cartesian3);
+
+  property.intervals.addInterval(
+    new Cesium.TimeInterval({
+      start: Cesium.JulianDate.addSeconds(
+        Cesium.JulianDate.fromDate(nowDate),
+        2,
+        new Cesium.JulianDate()
+      ),
+      stop: Cesium.JulianDate.addSeconds(
+        Cesium.JulianDate.fromDate(nowDate),
+        20,
+        new Cesium.JulianDate()
+      ),
+      isStartIncluded: true,
+      isStopIncluded: false,
+      data: new Cesium.Cartesian3(1000.0, 1000.0, 1000.0),
+    })
+  );
+  property.intervals.addInterval(
+    new Cesium.TimeInterval({
+      start: Cesium.JulianDate.addSeconds(
+        Cesium.JulianDate.fromDate(nowDate),
+        6,
+        new Cesium.JulianDate()
+      ),
+      stop: Cesium.JulianDate.addSeconds(
+        Cesium.JulianDate.fromDate(nowDate),
+        20,
+        new Cesium.JulianDate()
+      ),
+      isStartIncluded: true,
+      isStopIncluded: false,
+      data: new Cesium.Cartesian3(2000.0, 2000.0, 2000.0),
+    })
+  );
+  property.intervals.addInterval(
+    new Cesium.TimeInterval({
+      start: Cesium.JulianDate.addSeconds(
+        Cesium.JulianDate.fromDate(nowDate),
+        10,
+        new Cesium.JulianDate()
+      ),
+      stop: Cesium.JulianDate.addSeconds(
+        Cesium.JulianDate.fromDate(nowDate),
+        20,
+        new Cesium.JulianDate()
+      ),
+      isStartIncluded: true,
+      isStopIncluded: true,
+      data: new Cesium.Cartesian3(3000.0, 3000.0, 3000.0),
+    })
+  );
+//   let result = property.getValue(Cesium.JulianDate.fromIso8601(nowDate));
+//   console.log(result);
+  box.box.dimensions = property;
 };
 onMounted(() => {
   init();
