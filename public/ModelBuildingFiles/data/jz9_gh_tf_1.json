@@ -1,0 +1,41 @@
+{
+    "asset": {
+        "generatetool": "www.tuby.cn",
+        "gltfUpAxis": "Z",
+        "version": "1.0"
+    },
+    "root": {
+        "boundingVolume": {
+            "sphere": [
+                -4385.811035,                634.734497,                28.821655,                28.914881
+            ]
+        },
+        "geometricError": 100000000000000000000.000000,
+        "refine": "REPLACE",
+        "children": [
+            {
+                "boundingVolume": {
+                    "sphere": [
+                        -4385.811035,                        634.734497,                        28.821655,                        28.914881
+                    ]
+                },
+                "geometricError": 100000000000000000000.000000,
+                "refine": "REPLACE",
+                "children": [
+                    {
+                        "boundingVolume": {
+                            "sphere": [
+                                -4385.811035,                                634.734497,                                28.821655,                                28.914881
+                            ]
+                        },
+                        "content": {
+                            "uri": "jz9_gh_tf_1_ged_1.b3dm"
+                        },
+                        "geometricError": 100000000000000000000.000000,
+                        "refine": "REPLACE"
+                    }
+                ]
+            }
+        ]
+    }
+}

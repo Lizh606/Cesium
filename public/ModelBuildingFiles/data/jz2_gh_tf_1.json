@@ -1,0 +1,1422 @@
+{
+    "asset": {
+        "generatetool": "www.tuby.cn",
+        "gltfUpAxis": "Z",
+        "version": "1.0"
+    },
+    "root": {
+        "boundingVolume": {
+            "sphere": [
+                -4363.950195,                712.380249,                56.196560,                41.714336
+            ]
+        },
+        "geometricError": 100000000000000000000.000000,
+        "refine": "REPLACE",
+        "children": [
+            {
+                "boundingVolume": {
+                    "sphere": [
+                        -4363.950195,                        712.380249,                        56.196560,                        41.714336
+                    ]
+                },
+                "geometricError": 100000000000000000000.000000,
+                "refine": "REPLACE",
+                "children": [
+                    {
+                        "boundingVolume": {
+                            "sphere": [
+                                -4363.950195,                                712.380249,                                54.114983,                                39.631905
+                            ]
+                        },
+                        "geometricError": 100000000000000000000.000000,
+                        "refine": "REPLACE",
+                        "children": [
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4363.873047,                                        712.176147,                                        45.856663,                                        31.370701
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.820313,                                                712.368530,                                                48.426746,                                                28.792887
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.820313,                                                        712.368530,                                                        48.426746,                                                        28.792887
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "uri": "jz2_gh_tf_1_ged_1.b3dm"
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.873047,                                                712.176147,                                                43.915298,                                                29.421606
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.873047,                                                        712.176147,                                                        43.915298,                                                        29.421606
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "uri": "jz2_gh_tf_1_ged_2.b3dm"
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4363.950195,                                        712.380249,                                        54.471657,                                        39.272346
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.896484,                                                712.244141,                                                51.473267,                                                33.579201
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.925293,                                                        712.142700,                                                        51.473267,                                                        33.459370
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.925293,                                                                712.142700,                                                                51.473267,                                                                33.459370
+                                                            ]
+                                                        },
+                                                        "content": {
+                                                            "uri": "jz2_gh_tf_1_ged_3.b3dm"
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.864746,                                                        712.589172,                                                        49.934071,                                                        29.417854
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.864746,                                                                712.589172,                                                                49.934071,                                                                29.417854
+                                                            ]
+                                                        },
+                                                        "content": {
+                                                            "uri": "jz2_gh_tf_1_ged_4.b3dm"
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.820313,                                                        712.392822,                                                        51.467903,                                                        33.412056
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.820313,                                                                712.392822,                                                                51.467903,                                                                33.412056
+                                                            ]
+                                                        },
+                                                        "content": {
+                                                            "uri": "jz2_gh_tf_1_ged_5.b3dm"
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4364.490234,                                                        712.380249,                                                        52.065941,                                                        31.951366
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4364.490234,                                                                712.380249,                                                                52.065941,                                                                31.951366
+                                                            ]
+                                                        },
+                                                        "content": {
+                                                            "uri": "jz2_gh_tf_1_ged_6.b3dm"
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.950195,                                                712.380249,                                                54.471657,                                                39.272346
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.884766,                                                        712.408936,                                                        53.109283,                                                        34.616707
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.949219,                                                                712.368530,                                                                52.965927,                                                                30.932270
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.949219,                                                                        712.368530,                                                                        52.965927,                                                                        30.932270
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_7.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.884766,                                                                712.408936,                                                                53.158894,                                                                34.551903
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.408936,                                                                        53.158894,                                                                        34.551903
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_8.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.820801,                                                                712.380249,                                                                52.964520,                                                                34.453194
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.820801,                                                                        712.380249,                                                                        52.964520,                                                                        34.453194
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_9.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.946777,                                                                712.380249,                                                                52.963230,                                                                34.455463
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.946777,                                                                        712.380249,                                                                        52.963230,                                                                        34.455463
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_10.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.950195,                                                        712.380249,                                                        54.471657,                                                        39.272346
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.950195,                                                                712.380249,                                                                54.471657,                                                                39.272346
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.368530,                                                                        55.021660,                                                                        35.847321
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.368530,                                                                                55.021660,                                                                                35.847321
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_11.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.368530,                                                                        54.821678,                                                                        35.983749
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.368530,                                                                                54.821678,                                                                                35.983749
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_12.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.820313,                                                                        712.368530,                                                                        55.014648,                                                                        35.852108
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.820313,                                                                                712.368530,                                                                                55.014648,                                                                                35.852108
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_13.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.820313,                                                                        712.368530,                                                                        54.414639,                                                                        35.446362
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.820313,                                                                                712.368530,                                                                                54.414639,                                                                                35.446362
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_14.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.536499,                                                                        54.414639,                                                                        35.463696
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.536499,                                                                                54.414639,                                                                                35.463696
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_15.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925781,                                                                        712.402466,                                                                        54.414639,                                                                        35.323505
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925781,                                                                                712.402466,                                                                                54.414639,                                                                                35.323505
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_16.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.950195,                                                                        712.380249,                                                                        54.471657,                                                                        39.272346
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.950195,                                                                                712.380249,                                                                                54.471657,                                                                                39.272346
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_17.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.855469,                                                                712.380249,                                                                55.765915,                                                                32.751194
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.855469,                                                                        712.380249,                                                                        55.765915,                                                                        32.751194
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_18.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.272949,                                                                712.380249,                                                                55.766022,                                                                32.284698
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.272949,                                                                        712.380249,                                                                        55.766022,                                                                        32.284698
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_19.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4362.938477,                                        718.445740,                                        55.765915,                                        30.449306
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4362.938477,                                                718.445740,                                                55.765915,                                                30.449306
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz2_gh_tf_1_ged_20.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "boundingVolume": {
+                            "sphere": [
+                                -4363.884766,                                712.380249,                                58.700951,                                39.209091
+                            ]
+                        },
+                        "geometricError": 100000000000000000000.000000,
+                        "refine": "REPLACE",
+                        "children": [
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4363.884766,                                        712.380249,                                        57.889549,                                        38.397484
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.884766,                                                712.380249,                                                57.423691,                                                37.930511
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.880859,                                                        712.396790,                                                        56.514908,                                                        36.847279
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4364.109375,                                                                712.380249,                                                                55.976192,                                                                32.437683
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4364.109375,                                                                        712.380249,                                                                        55.976192,                                                                        32.437683
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_21.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.948730,                                                                712.380249,                                                                56.586006,                                                                33.202423
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.948730,                                                                        712.380249,                                                                        56.586006,                                                                        33.202423
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_22.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4364.137695,                                                                712.624268,                                                                55.920956,                                                                35.768639
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4364.137695,                                                                        712.624268,                                                                        55.920956,                                                                        35.768639
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_23.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.876953,                                                                712.380249,                                                                56.514256,                                                                36.830269
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.876953,                                                                        712.380249,                                                                        56.514256,                                                                        36.830269
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_24.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.884766,                                                                712.413330,                                                                56.515575,                                                                36.830250
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.413330,                                                                        56.515575,                                                                        36.830250
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_25.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.884766,                                                        712.380249,                                                        57.423691,                                                        37.930511
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.925293,                                                                712.218811,                                                                57.421661,                                                                37.573055
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.167603,                                                                        57.414639,                                                                        37.507374
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.884766,                                                                                712.167603,                                                                                57.414639,                                                                                37.507374
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_26.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.226318,                                                                        57.421661,                                                                        37.551090
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.226318,                                                                                57.421661,                                                                                37.551090
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_27.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4364.068359,                                                                712.366394,                                                                57.417534,                                                                37.268311
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4364.068359,                                                                        712.366394,                                                                        57.417534,                                                                        37.268311
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_28.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.884766,                                                                712.380249,                                                                57.421669,                                                                37.925285
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.380249,                                                                        57.414635,                                                                        37.419987
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.380249,                                                                                57.414635,                                                                                37.419987
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_29.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.380249,                                                                        57.421669,                                                                        37.910637
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.884766,                                                                                712.380249,                                                                                57.421669,                                                                                37.910637
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_30.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.383789,                                                                        57.417534,                                                                        37.571854
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.383789,                                                                                57.417534,                                                                                37.571854
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_31.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.380249,                                                                        57.421669,                                                                        37.925285
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.884766,                                                                                712.380249,                                                                                57.421669,                                                                                37.925285
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_32.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.919922,                                                                712.380249,                                                                57.614639,                                                                37.736355
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.380249,                                                                        57.621662,                                                                        37.667259
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.380249,                                                                                57.621662,                                                                                37.667259
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_33.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.380249,                                                                        57.614635,                                                                        37.730469
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.925293,                                                                                712.380249,                                                                                57.614635,                                                                                37.730469
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_34.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.873047,                                                                        712.376709,                                                                        57.617546,                                                                        37.599144
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.873047,                                                                                712.376709,                                                                                57.617546,                                                                                37.599144
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_35.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.380249,                                                                        57.617546,                                                                        37.701080
+                                                                    ]
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE",
+                                                                "children": [
+                                                                    {
+                                                                        "boundingVolume": {
+                                                                            "sphere": [
+                                                                                -4363.884766,                                                                                712.380249,                                                                                57.617546,                                                                                37.701080
+                                                                            ]
+                                                                        },
+                                                                        "content": {
+                                                                            "uri": "jz2_gh_tf_1_ged_36.b3dm"
+                                                                        },
+                                                                        "geometricError": 100000000000000000000.000000,
+                                                                        "refine": "REPLACE"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.820313,                                                712.380249,                                                59.754581,                                                36.531338
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.820313,                                                        712.380249,                                                        59.514473,                                                        36.288391
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.820313,                                                                712.368530,                                                                60.224556,                                                                35.578213
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.820313,                                                                        712.368530,                                                                        60.224556,                                                                        35.578213
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_37.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.820313,                                                                712.368530,                                                                60.224556,                                                                35.578041
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.820313,                                                                        712.368530,                                                                        60.224556,                                                                        35.578041
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_38.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.892578,                                                                712.351685,                                                                58.959549,                                                                30.871099
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.892578,                                                                        712.351685,                                                                        58.959549,                                                                        30.871099
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_39.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.884766,                                                                712.408936,                                                                59.779663,                                                                31.306654
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.884766,                                                                        712.408936,                                                                        59.779663,                                                                        31.306654
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_40.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.888672,                                                                712.392822,                                                                58.966576,                                                                30.854198
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.888672,                                                                        712.392822,                                                                        58.966576,                                                                        30.854198
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_41.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.820313,                                                                712.380249,                                                                58.916988,                                                                35.690811
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.820313,                                                                        712.380249,                                                                        58.916988,                                                                        35.690811
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_42.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.925293,                                                                712.376770,                                                                60.215233,                                                                31.603519
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.376770,                                                                        60.215233,                                                                        31.603519
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_43.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.925293,                                                        712.380249,                                                        61.696686,                                                        34.586399
+                                                    ]
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE",
+                                                "children": [
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.925293,                                                                712.380249,                                                                61.696686,                                                                34.586399
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.925293,                                                                        712.380249,                                                                        61.696686,                                                                        34.586399
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_44.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.949219,                                                                712.368530,                                                                61.015297,                                                                32.069679
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.949219,                                                                        712.368530,                                                                        61.015297,                                                                        32.069679
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_45.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4363.812500,                                                                712.351685,                                                                61.259579,                                                                27.848682
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4363.812500,                                                                        712.351685,                                                                        61.259579,                                                                        27.848682
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_46.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "boundingVolume": {
+                                                            "sphere": [
+                                                                -4364.443359,                                                                712.380249,                                                                61.813190,                                                                30.433659
+                                                            ]
+                                                        },
+                                                        "geometricError": 100000000000000000000.000000,
+                                                        "refine": "REPLACE",
+                                                        "children": [
+                                                            {
+                                                                "boundingVolume": {
+                                                                    "sphere": [
+                                                                        -4364.443359,                                                                        712.380249,                                                                        61.813190,                                                                        30.433659
+                                                                    ]
+                                                                },
+                                                                "content": {
+                                                                    "uri": "jz2_gh_tf_1_ged_47.b3dm"
+                                                                },
+                                                                "geometricError": 100000000000000000000.000000,
+                                                                "refine": "REPLACE"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4363.925293,                                        712.380249,                                        62.695160,                                        35.214676
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.925293,                                                712.380249,                                                61.921768,                                                34.440235
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.925293,                                                        712.380249,                                                        61.921768,                                                        34.440235
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "uri": "jz2_gh_tf_1_ged_48.b3dm"
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.820313,                                                712.368530,                                                64.922333,                                                29.436884
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.820313,                                                        712.368530,                                                        64.922333,                                                        29.436884
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "uri": "jz2_gh_tf_1_ged_49.b3dm"
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.820313,                                                712.392822,                                                62.586678,                                                29.801262
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.820313,                                                        712.392822,                                                        62.586678,                                                        29.801262
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "uri": "jz2_gh_tf_1_ged_50.b3dm"
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4363.820313,                                                712.380249,                                                67.922325,                                                29.986458
+                                            ]
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE",
+                                        "children": [
+                                            {
+                                                "boundingVolume": {
+                                                    "sphere": [
+                                                        -4363.820313,                                                        712.380249,                                                        67.922325,                                                        29.986458
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "uri": "jz2_gh_tf_1_ged_51.b3dm"
+                                                },
+                                                "geometricError": 100000000000000000000.000000,
+                                                "refine": "REPLACE"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

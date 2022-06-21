@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "generatetool": "www.tuby.cn",
+    "gltfUpAxis": "Z",
+    "version": "1.0"
+  },
+  "root": {
+    "boundingVolume": {
+      "sphere": [-2371600.75, 5373824.0, 2477368.5, 194.217545]
+    },
+    "geometricError": 100000000000000000000.0,
+    "refine": "REPLACE",
+    "children": [
+      {
+        "boundingVolume": {
+          "sphere": [-2371551.5, 5373833.5, 2477434.0, 48.904083]
+        },
+        "content": {
+          "uri": "data/jz1_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371548.75, 5373855.5, 2477385.25, 41.714336]
+        },
+        "content": {
+          "uri": "data/jz2_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371556.0, 5373875.0, 2477337.5, 41.303379]
+        },
+        "content": {
+          "uri": "data/jz3_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371559.75, 5373894.5, 2477289.0, 38.738644]
+        },
+        "content": {
+          "uri": "data/jz4_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371613.75, 5373869.0, 2477289.5, 38.339077]
+        },
+        "content": {
+          "uri": "data/jz5_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371668.0, 5373845.5, 2477291.5, 39.658501]
+        },
+        "content": {
+          "uri": "data/jz6_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371650.5, 5373824.5, 2477420.5, 58.757885]
+        },
+        "content": {
+          "uri": "data/jz7_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371582.0, 5373804.0, 2477397.25, 89.643829]
+        },
+        "content": {
+          "uri": "data/jz8_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371531.0, 5373869.0, 2477303.0, 28.914881]
+        },
+        "content": {
+          "uri": "data/jz9_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      },
+      {
+        "boundingVolume": {
+          "sphere": [-2371664.25, 5373807.0, 2477311.5, 33.91457]
+        },
+        "content": {
+          "uri": "data/jz10_gh.json"
+        },
+        "geometricError": 100000000000000000000.0,
+        "refine": "REPLACE",
+        "children": []
+      }
+    ]
+  }
+}

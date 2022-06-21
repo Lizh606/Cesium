@@ -1,0 +1,281 @@
+{
+    "asset": {
+        "generatetool": "www.tuby.cn",
+        "gltfUpAxis": "Z",
+        "version": "1.0"
+    },
+    "root": {
+        "boundingVolume": {
+            "sphere": [
+                -4238.864258,                643.625854,                29.447727,                33.914570
+            ]
+        },
+        "geometricError": 100000000000000000000.000000,
+        "refine": "REPLACE",
+        "children": [
+            {
+                "boundingVolume": {
+                    "sphere": [
+                        -4238.864258,                        643.625854,                        29.447727,                        33.914570
+                    ]
+                },
+                "geometricError": 100000000000000000000.000000,
+                "refine": "REPLACE",
+                "children": [
+                    {
+                        "boundingVolume": {
+                            "sphere": [
+                                -4238.864258,                                643.509888,                                29.418062,                                33.522331
+                            ]
+                        },
+                        "geometricError": 100000000000000000000.000000,
+                        "refine": "REPLACE",
+                        "children": [
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        643.509949,                                        28.821663,                                        32.925930
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                643.509949,                                                28.821663,                                                32.925930
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_1.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        643.509888,                                        28.821663,                                        32.925903
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                643.509888,                                                28.821663,                                                32.925903
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_2.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        643.509949,                                        30.171663,                                        32.768726
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                643.509949,                                                30.171663,                                                32.768726
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_3.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        627.889404,                                        33.232677,                                        17.116514
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                627.889404,                                                33.232677,                                                17.116514
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_4.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        643.509949,                                        28.777170,                                        32.323887
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                643.509949,                                                28.777170,                                                32.323887
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_5.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        643.509888,                                        28.777170,                                        32.323856
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                643.509888,                                                28.777170,                                                32.323856
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_6.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "boundingVolume": {
+                            "sphere": [
+                                -4238.864258,                                644.436035,                                30.171623,                                32.828098
+                            ]
+                        },
+                        "geometricError": 100000000000000000000.000000,
+                        "refine": "REPLACE",
+                        "children": [
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        644.102905,                                        30.171623,                                        32.166668
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                644.102905,                                                30.171623,                                                32.166668
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_7.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        659.381470,                                        27.021664,                                        17.554321
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                659.381470,                                                27.021664,                                                17.554321
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_8.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        659.381470,                                        33.021664,                                        17.554321
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                659.381470,                                                33.021664,                                                17.554321
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_9.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            },
+                            {
+                                "boundingVolume": {
+                                    "sphere": [
+                                        -4238.864258,                                        659.130493,                                        33.232677,                                        17.116514
+                                    ]
+                                },
+                                "geometricError": 100000000000000000000.000000,
+                                "refine": "REPLACE",
+                                "children": [
+                                    {
+                                        "boundingVolume": {
+                                            "sphere": [
+                                                -4238.864258,                                                659.130493,                                                33.232677,                                                17.116514
+                                            ]
+                                        },
+                                        "content": {
+                                            "uri": "jz10_gh_tf_1_ged_10.b3dm"
+                                        },
+                                        "geometricError": 100000000000000000000.000000,
+                                        "refine": "REPLACE"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
