@@ -61,6 +61,7 @@ const init = () => {
     shouldAnimate: true,
   });
   viewer = toRaw(viewer1);
+  console.log(viewer);
   viewer.dataSources.add(
     Cesium.GeoJsonDataSource.load(
       "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
@@ -103,7 +104,9 @@ const init = () => {
   // 根据元素的clampToGround属性贴地
   let options = {
     camera: viewer.scene.camera,
+
     canvas: viewer.scene.canvas,
+
     clampToGround: true, //开启贴地
   };
 
@@ -119,8 +122,9 @@ const init = () => {
       }
     )
   );
-  viewer.flyTo(a);
+  console.log(viewer.flyTo(a));
 };
+//funcs
 const hightlight = () => {
   highlight(viewer);
 };
@@ -130,12 +134,15 @@ const load3DTile = () => {
 const loadGeoJson = () => {
   loadGeo(viewer);
 };
+// loadGeoJson();
 const go = () => {
   fly(viewer);
 };
+// go();
 const totank = () => {
   tank(viewer);
 };
+// linehHghtlight();
 const hightlightGeoJson = () => {
   highlightGeo(viewer);
 };
@@ -163,10 +170,16 @@ const text = () => {
   );
 
   let result = property.getValue(Cesium.JulianDate.fromIso8601(nowDate));
+  console.log(result);
   blueBox.box.dimensions = property;
+  console.log(blueBox);
   change(blueBox);
 };
-let change1 = ref("");
+const obj = ref({
+  msg: "hello",
+});
+console.log(obj);
+let change1 = ref('');
 const change = (blueBox) => {
   setInterval(() => {
     let nowDate = new Date().toJSON();
@@ -180,12 +193,13 @@ const change = (blueBox) => {
   //   new Cesium.Cartesian3(400000.0, 300000.0, 700000.0)
   // );
 };
+// change();
 onMounted(() => {
   init();
 });
 </script>
 
-<style lang="scss" scope>
+<style scoped>
 .map-box {
   width: 100%;
   height: 100%;
@@ -204,7 +218,6 @@ onMounted(() => {
   height: 100%;
 }
 .btn1 {
-  color: $default_color;
   position: absolute;
   z-index: 99;
   top: 0px;

@@ -14,7 +14,7 @@
           cesuim高亮
         </template>
         <MenuItem name="2-2" @click="load3DTile">加载3DTiles</MenuItem>
-        <MenuItem name="2-3" @click="hightlight">高亮3DTiles</MenuItem>
+        <MenuItem name="2-3" @click="(viewer) => highlight(viewer) ">高亮3DTiles</MenuItem>
         <MenuItem name="2-4" @click="loadGeoJson">加载GeoJson</MenuItem>
         <MenuItem name="2-5" @click="hightlightGeoJson">高亮GeoJson</MenuItem>
       </Submenu>
@@ -61,6 +61,7 @@ const init = () => {
     shouldAnimate: true,
   });
   viewer = toRaw(viewer1);
+  console.log(viewer);
   viewer.dataSources.add(
     Cesium.GeoJsonDataSource.load(
       "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
@@ -103,7 +104,9 @@ const init = () => {
   // 根据元素的clampToGround属性贴地
   let options = {
     camera: viewer.scene.camera,
+
     canvas: viewer.scene.canvas,
+
     clampToGround: true, //开启贴地
   };
 
@@ -119,7 +122,7 @@ const init = () => {
       }
     )
   );
-  viewer.flyTo(a);
+  console.log(viewer.flyTo(a));
 };
 const hightlight = () => {
   highlight(viewer);
@@ -163,10 +166,12 @@ const text = () => {
   );
 
   let result = property.getValue(Cesium.JulianDate.fromIso8601(nowDate));
+  console.log(result);
   blueBox.box.dimensions = property;
+  console.log(blueBox);
   change(blueBox);
 };
-let change1 = ref("");
+let change1 = ref('');
 const change = (blueBox) => {
   setInterval(() => {
     let nowDate = new Date().toJSON();
@@ -185,7 +190,7 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scope>
+<style scoped>
 .map-box {
   width: 100%;
   height: 100%;
@@ -204,7 +209,6 @@ onMounted(() => {
   height: 100%;
 }
 .btn1 {
-  color: $default_color;
   position: absolute;
   z-index: 99;
   top: 0px;

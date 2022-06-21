@@ -61,6 +61,7 @@ const init = () => {
     shouldAnimate: true,
   });
   viewer = toRaw(viewer1);
+  console.log(viewer);
   viewer.dataSources.add(
     Cesium.GeoJsonDataSource.load(
       "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
@@ -119,7 +120,7 @@ const init = () => {
       }
     )
   );
-  viewer.flyTo(a);
+  console.log(viewer.flyTo(a));
 };
 const hightlight = () => {
   highlight(viewer);
@@ -185,7 +186,7 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scope>
+<style scoped>
 .map-box {
   width: 100%;
   height: 100%;
@@ -204,7 +205,6 @@ onMounted(() => {
   height: 100%;
 }
 .btn1 {
-  color: $default_color;
   position: absolute;
   z-index: 99;
   top: 0px;

@@ -13,14 +13,14 @@ const loadGeo = (viewer) => {
   );
   viewer.flyTo(geojson);
 };
-let highlightFace ;
 const highlightGeo = (viewer) => {
   // //高亮元素
   viewer.screenSpaceEventHandler.setInputAction(function onLeftClick(movement) {
     let pickedFeature = viewer.scene.pick(movement.position);
+    let highlightFace ;
     let showDivPositionOld;
     //判断之前是否有高亮面存在
-    if (highlightFace !== null&& highlightFace !== undefined) {
+    if (highlightFace !== null) {
       highlightFace.material = highlightFace.material0;
     }
     pickedFeature.id.polygon.material0 = pickedFeature.id.polygon.material;

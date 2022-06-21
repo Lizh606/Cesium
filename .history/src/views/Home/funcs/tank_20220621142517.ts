@@ -69,7 +69,9 @@ const tank = function (viewer) {
 
     wheelAngle +=
       ((Math.PI * 2 * totalSeconds) / numberOfSamples) * rotationsPerSecond;
+    // console.log(wheelAngle);
     wheelAngleProperty.addSample(time, wheelAngle);
+    // console.log(wheelAngleProperty.getvalue(time));
   }
 
   function updateSpeedLabel(time, result) {
@@ -107,7 +109,7 @@ const tank = function (viewer) {
     //VelocityOrientationProperty将Entity的postion速度转换成Orientation旋转
     orientation: new Cesium.VelocityOrientationProperty(position), // 自动将车辆方向设置为其面对的方向。
     model: {
-      uri: "/ModelBuildingFiles/GroundVehicle.glb",
+      uri: "/ModelBuildingFiles/Cesium_Air.glb",
       runAnimations: false,
       nodeTransformations: nodeTransformations,
     },

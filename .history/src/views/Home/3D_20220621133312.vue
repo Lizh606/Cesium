@@ -35,7 +35,7 @@
       测试
     </button>
     <button class="btn1" style="left: 357.35px; top: 24.5px" @click="change">
-      {{ change1.z }}
+      13{{ change1 }}
     </button>
   </div>
 </template>
@@ -48,9 +48,8 @@ import { load, highlight } from "./funcs/3dTiles";
 import { loadGeo, highlightGeo } from "./funcs/GeoJSON";
 
 import * as Cesium from "cesium";
-//菜单样式
 const theme = "light";
-//初始化cesium
+
 let viewer;
 const init = () => {
   if (viewer) {
@@ -61,6 +60,7 @@ const init = () => {
     shouldAnimate: true,
   });
   viewer = toRaw(viewer1);
+  console.log(viewer);
   viewer.dataSources.add(
     Cesium.GeoJsonDataSource.load(
       "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
@@ -103,7 +103,9 @@ const init = () => {
   // 根据元素的clampToGround属性贴地
   let options = {
     camera: viewer.scene.camera,
+
     canvas: viewer.scene.canvas,
+
     clampToGround: true, //开启贴地
   };
 
@@ -119,7 +121,7 @@ const init = () => {
       }
     )
   );
-  viewer.flyTo(a);
+  console.log(viewer.flyTo(a));
 };
 const hightlight = () => {
   highlight(viewer);
@@ -130,12 +132,15 @@ const load3DTile = () => {
 const loadGeoJson = () => {
   loadGeo(viewer);
 };
+// loadGeoJson();
 const go = () => {
   fly(viewer);
 };
+// go();
 const totank = () => {
   tank(viewer);
 };
+// linehHghtlight();
 const hightlightGeoJson = () => {
   highlightGeo(viewer);
 };
@@ -163,29 +168,36 @@ const text = () => {
   );
 
   let result = property.getValue(Cesium.JulianDate.fromIso8601(nowDate));
+  console.log(result);
   blueBox.box.dimensions = property;
+  console.log(blueBox);
   change(blueBox);
 };
-let change1 = ref("");
+let change1;
+
 const change = (blueBox) => {
   setInterval(() => {
     let nowDate = new Date().toJSON();
     let z = blueBox.box.dimensions.getValue(
       Cesium.JulianDate.fromIso8601(nowDate)
     );
-    change1.value = z;
-    console.log(change1.value);
+
+    change1 = ref(z);
+    console.log(change1);
+  
+    // console.log(change1);
   }, 1000);
   // this.blueBox.box.dimensions.setValue(
   //   new Cesium.Cartesian3(400000.0, 300000.0, 700000.0)
   // );
 };
+// change();
 onMounted(() => {
   init();
 });
 </script>
 
-<style lang="scss" scope>
+<style scoped>
 .map-box {
   width: 100%;
   height: 100%;
@@ -204,7 +216,6 @@ onMounted(() => {
   height: 100%;
 }
 .btn1 {
-  color: $default_color;
   position: absolute;
   z-index: 99;
   top: 0px;

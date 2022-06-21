@@ -69,7 +69,9 @@ const tank = function (viewer) {
 
     wheelAngle +=
       ((Math.PI * 2 * totalSeconds) / numberOfSamples) * rotationsPerSecond;
+    // console.log(wheelAngle);
     wheelAngleProperty.addSample(time, wheelAngle);
+    // console.log(wheelAngleProperty.getvalue(time));
   }
 
   function updateSpeedLabel(time, result) {

@@ -13,14 +13,14 @@ const loadGeo = (viewer) => {
   );
   viewer.flyTo(geojson);
 };
-let highlightFace ;
 const highlightGeo = (viewer) => {
   // //高亮元素
   viewer.screenSpaceEventHandler.setInputAction(function onLeftClick(movement) {
     let pickedFeature = viewer.scene.pick(movement.position);
+    let highlightFace = null;
     let showDivPositionOld;
     //判断之前是否有高亮面存在
-    if (highlightFace !== null&& highlightFace !== undefined) {
+    if (highlightFace !== null) {
       highlightFace.material = highlightFace.material0;
     }
     pickedFeature.id.polygon.material0 = pickedFeature.id.polygon.material;
@@ -39,7 +39,7 @@ const highlightGeo = (viewer) => {
   }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 };
 const linehHghtlight = (nameId) => {
-  let temp = [];
+  let temp = "";
   let exists = temp.indexOf(nameId);
   if (exists <= -1) {
     temp.push(nameId);

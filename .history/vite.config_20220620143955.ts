@@ -18,12 +18,5 @@ export default defineConfig({
     open: true, // 服务启动时是否自动打开浏览器
     cors: true, // 允许跨域
       
-  },
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: '@import "./src/style/scss/global.scss";'
-      }
-    }
-}
+  }
 })

@@ -185,7 +185,7 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scope>
+<style scoped>
 .map-box {
   width: 100%;
   height: 100%;
@@ -204,7 +204,6 @@ onMounted(() => {
   height: 100%;
 }
 .btn1 {
-  color: $default_color;
   position: absolute;
   z-index: 99;
   top: 0px;
