@@ -1,5 +1,5 @@
 import * as Cesium from "cesium";
-
+//SampledPositionProperty、PolylineGlowMaterialProperty
 const fly = function (viewer) {
   const canvas = viewer.canvas;
   canvas.setAttribute("tabindex", "0"); // needed to put focus on the canvas
@@ -25,6 +25,13 @@ const fly = function (viewer) {
         taperPower: 0.3,
         color: Cesium.Color.PALEGOLDENROD,
       }),
+      // new Cesium.ColorMaterialProperty(
+      //   new Cesium.CallbackProperty(function () {
+      //     return Cesium.Color.fromRandom({
+      //       alpha: 1.0,
+      //     });
+      //   }, false)
+      // );
     },
   });
 

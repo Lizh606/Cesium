@@ -1,5 +1,5 @@
 import * as Cesium from "cesium";
-
+//SampledPositionProperty、SampledProperty、VelocityVectorProperty、NodeTransformationProperty、CallbackProperty、VelocityOrientationProperty
 const tank = function (viewer) {
   //Make sure viewer is at the desired time.
   const start = Cesium.JulianDate.fromDate(new Date(2018, 11, 12, 15));
@@ -10,9 +10,9 @@ const tank = function (viewer) {
     new Cesium.JulianDate()
   );
   viewer.clock.startTime = start.clone(); //开始时间
-  viewer.clock.stopTime = stop.clone();//结束时间
-  viewer.clock.currentTime = start.clone();//当前时间
-  viewer.clock.clockRange = Cesium.ClockRange.LOOP_STOP;//确定 Clock＃startTime 或 Clock时时钟的行为#stopTime 到达。
+  viewer.clock.stopTime = stop.clone(); //结束时间
+  viewer.clock.currentTime = start.clone(); //当前时间
+  viewer.clock.clockRange = Cesium.ClockRange.LOOP_STOP; //确定 Clock＃startTime 或 Clock时时钟的行为#stopTime 到达。
   viewer.timeline.zoomTo(start, stop); //时间轴是用于显示和控制当前场景时间的小部件。
 
   // 通过在两个位置之间移动，为我们的车辆创建路径。
@@ -61,7 +61,7 @@ const tank = function (viewer) {
     //主要是用来避免频繁创建和销毁对象而导致内存碎片。Cesium就是通过调用getValue类似的一些函数来感知Property的变化的，
     const res = velocityVectorProperty.getValue(time, velocityVector);
     console.log(res);
-    
+
     const metersPerSecond = Cesium.Cartesian3.magnitude(velocityVector); //计算笛卡尔的大小（长度）。
     const wheelRadius = 0.52; //in meters.
     const circumference = Math.PI * wheelRadius * 2;
@@ -79,18 +79,15 @@ const tank = function (viewer) {
 
     return `${kmPerHour} km/hr`;
   }
-  const rotationProperty = new Cesium.CallbackProperty(function (
-    time,
-    result
-  ) {
+  const rotationProperty = new Cesium.CallbackProperty(function (time, result) {
     return Cesium.Quaternion.fromAxisAngle(
       Cesium.Cartesian3.UNIT_X,
       wheelAngleProperty.getValue(time),
       result
     );
-  },
-  false);
+  }, false);
   // rotationProperty.getValue(Cesium.JulianDate.fromIso8601(nowDate))
+  //车轮旋转 获取或设置 Quaternion 属性，该属性指定要应用于该节点的（x，y，z，w）旋转。
   const wheelTransformation = new Cesium.NodeTransformationProperty({
     rotation: rotationProperty,
   });
@@ -115,10 +112,7 @@ const tank = function (viewer) {
       text: new Cesium.CallbackProperty(updateSpeedLabel, false),
       font: "20px sans-serif",
       showBackground: true,
-      distanceDisplayCondition: new Cesium.DistanceDisplayCondition(
-        0.0,
-        100.0
-      ),
+      distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0.0, 100.0),
       eyeOffset: new Cesium.Cartesian3(0, 3.5, 0),
     },
   });

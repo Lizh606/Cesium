@@ -1,6 +1,6 @@
 <template>
   <div class="map-box">
-    <Menu class="left" :theme="theme">
+    <Menu theme="light" class="left">
       <Submenu name="1">
         <template #title>
           <Icon type="ios-paper" />
@@ -26,8 +26,9 @@
         <MenuItem name="3-1" @click="go">飞机</MenuItem>
         <MenuItem name="3-2" @click="totank">坦克</MenuItem>
         <MenuItem name="3-3" @click="text">SampledProperty</MenuItem>
-        <MenuItem name="3-4" @click="Time">CallbackProperty</MenuItem>
-        <MenuItem name="3-5" @click="veloctiy"
+        <MenuItem name="3-4" @click="Time">BoxCallbackProperty</MenuItem>
+        <MenuItem name="3-5" @click="line">LineCallbackProperty</MenuItem>
+        <MenuItem name="3-6" @click="veloctiy"
           >VelocityOrientationProperty</MenuItem
         >
       </Submenu>
@@ -35,9 +36,11 @@
     <div class="right">
       <div id="cesiumContainer"></div>
     </div>
-    <button class="btn1" style="left: 407.35px; top: 24.5px" @click="change">
-      {{ change1.z }}{{$store.state.name}}
-    </button>
+    <Button class="btn1" style="left: 407.35px; top: 24.5px" >
+      {{ change1.z }}{{ $store.state.name }}
+    </Button>
+    <!-- <Rate v-model="value" /> -->
+
   </div>
 </template>
 
@@ -47,14 +50,14 @@ import fly from "./funcs/fly";
 import tank from "./funcs/tank";
 import { load, highlight } from "./funcs/3dTiles";
 import { loadGeo, highlightGeo } from "./funcs/GeoJSON";
-import TimeIntervalCollection from "./funcs/CallbackProperty";
+import { BoxCallback, LineCallback } from "./funcs/CallbackProperty";
 import VelocityOrientation from "./funcs/VelocityOrientationProperty";
 import useCurrentInstance from "@/utils/useCurrentInstance";
+import * as Cesium from "cesium";
+
 const { proxy } = useCurrentInstance();
 console.log(proxy);
-import * as Cesium from "cesium";
-//菜单样式
-const theme = "light";
+// const value = ref('0')
 //初始化cesium
 let viewer;
 const init = () => {
@@ -66,66 +69,56 @@ const init = () => {
     shouldAnimate: true,
   });
   viewer = toRaw(viewer1);
-  viewer.dataSources.add(
-    Cesium.GeoJsonDataSource.load(
-      "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
-      {
-        stroke: Cesium.Color.HOTPINK,
-        fill: Cesium.Color.PINK.withAlpha(0.5),
-        strokeWidth: 3,
-      }
-    )
-  );
-  viewer.scene.primitives.add(
-    new Cesium.GroundPolylinePrimitive({
-      //贴地primitive线
-      geometryInstances: new Cesium.GeometryInstance({
-        geometry: new Cesium.GroundPolylineGeometry({
-          //贴地线几何
-          positions: Cesium.Cartesian3.fromDegreesArray([90, 28, 100, 28]),
-        }),
-      }),
-      appearance: new Cesium.PolylineMaterialAppearance({
-        material: Cesium.Material.fromType("Color", {
-          color: Cesium.Color.RED,
-        }),
-      }),
-    })
-  );
-  let yellowLine = viewer.entities.add({
-    name: "Red line on the surface",
-    polyline: {
-      positions: Cesium.Cartesian3.fromDegreesArray([
-        112.82436, 23.071506, 112.82742, 23.067512, 112.828878, 23.064659,
-        112.830799, 23.060947, 112.832166, 24.058329,
-      ]),
-      width: 2,
-      material: Cesium.Color.YELLOW,
-    },
-  });
-  viewer.flyTo(yellowLine);
-  // eslint-disable-next-line no-console
-  // 根据元素的clampToGround属性贴地
-  let options = {
-    camera: viewer.scene.camera,
-    canvas: viewer.scene.canvas,
-    clampToGround: true, //开启贴地
-  };
+  // viewer.dataSources.add(
+  //   Cesium.GeoJsonDataSource.load(
+  //     "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
+  //     {
+  //       stroke: Cesium.Color.HOTPINK,
+  //       fill: Cesium.Color.PINK.withAlpha(0.5),
+  //       strokeWidth: 3,
+  //     }
+  //   )
+  // );
+  // viewer.scene.primitives.add(
+  //   new Cesium.GroundPolylinePrimitive({
+  //     //贴地primitive线
+  //     geometryInstances: new Cesium.GeometryInstance({
+  //       geometry: new Cesium.GroundPolylineGeometry({
+  //         //贴地线几何
+  //         positions: Cesium.Cartesian3.fromDegreesArray([90, 28, 100, 28]),
+  //       }),
+  //     }),
+  //     appearance: new Cesium.PolylineMaterialAppearance({
+  //       material: Cesium.Material.fromType("Color", {
+  //         color: Cesium.Color.RED,
+  //       }),
+  //     }),
+  //   })
+  // );
 
-  viewer.camera.flyHome(0);
+  // // eslint-disable-next-line no-console
+  // // 根据元素的clampToGround属性贴地
+  // let options = {
+  //   camera: viewer.scene.camera,
+  //   canvas: viewer.scene.canvas,
+  //   clampToGround: true, //开启贴地
+  // };
 
-  let a = viewer.dataSources.add(
-    Cesium.GeoJsonDataSource.load(
-      "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
-      {
-        stroke: Cesium.Color.HOTPINK,
-        fill: Cesium.Color.PINK.withAlpha(0.5),
-        strokeWidth: 3,
-      }
-    )
-  );
-  viewer.flyTo(a);
+  // viewer.camera.flyHome(0);
+
+  // let a = viewer.dataSources.add(
+  //   Cesium.GeoJsonDataSource.load(
+  //     "https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=310000_full",
+  //     {
+  //       stroke: Cesium.Color.HOTPINK,
+  //       fill: Cesium.Color.PINK.withAlpha(0.5),
+  //       strokeWidth: 3,
+  //     }
+  //   )
+  // );
+  // viewer.flyTo(a);
 };
+
 const hightlight = () => {
   highlight(viewer);
 };
@@ -158,12 +151,12 @@ const text = () => {
   let property = new Cesium.SampledProperty(Cesium.Cartesian3);
   let nowDate = new Date().toJSON();
   property.addSample(
-    Cesium.JulianDate.fromIso8601("2022-06-18T00:00:00.00Z"),
+    Cesium.JulianDate.fromIso8601("2022-06-22T00:00:00.00Z"),
     new Cesium.Cartesian3(400000.0, 300000.0, 200000.0)
   );
 
   property.addSample(
-    Cesium.JulianDate.fromIso8601("2022-06-24T24:00:00.00Z"),
+    Cesium.JulianDate.fromIso8601("2022-06-30T24:00:00.00Z"),
     new Cesium.Cartesian3(600000.0, 500000.0, 700000.0)
   );
 
@@ -179,14 +172,16 @@ const change = (blueBox) => {
       Cesium.JulianDate.fromIso8601(nowDate)
     );
     change1.value = z;
-    console.log(change1.value);
   }, 1000);
   // this.blueBox.box.dimensions.setValue(
   //   new Cesium.Cartesian3(400000.0, 300000.0, 700000.0)
   // );
 };
 const Time = async () => {
-  await TimeIntervalCollection(viewer);
+  await BoxCallback(viewer);
+};
+const line = async () => {
+  await LineCallback(viewer);
 };
 const veloctiy = async () => {
   await VelocityOrientation(viewer);
@@ -205,6 +200,7 @@ onMounted(() => {
 }
 .left {
   margin-left: -30px;
+  border: green 2px solid;
   width: 200px;
 }
 .right {
